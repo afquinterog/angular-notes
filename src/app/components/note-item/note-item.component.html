@@ -1,0 +1,16 @@
+<div class=" flex flex-row border-b">
+    <div class="w-1/2 m-4">
+        <div class="flex-column ">
+            <div class="text-base ">{{note.title}}</div>
+            <div class="text-xs font-thin italic">{{note.updatedAt | date:'short'}}</div>
+        </div>
+
+    </div>
+
+    <div class="w-1/2 flex m-4">
+        <div class="flex flex-row-reverse items-center  h-full w-full">
+            <img (click)="delete()" class="w-4 h-4 mr-2" src="../assets/zondicons/trash.svg" alt="Delete note">
+            <img (click)="edit()"class="w-4 h-4 mr-2 " src="../assets/zondicons/edit-pencil.svg" alt="Edit note">
+        </div>
+    </div>
+</div>

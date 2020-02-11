@@ -1,0 +1,14 @@
+
+
+ <div class="flex flex-row border-gray-40 border-b">
+    <div class="w-1/2 m-4 font-bold">
+        My notes
+    </div>
+    <div class="w-1/2 m-4 flex flex-row-reverse">
+      <a (click)="orderDate()" class="ml-4">Date</a>
+      <a (click)="orderTitle()" class="ml-4">Title</a>
+      <p class="font-bold">Order:</p>
+    </div>
+</div>
+
+<app-note-item *ngFor="let note of notes" [note]="note"></app-note-item>
