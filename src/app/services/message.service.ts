@@ -10,7 +10,6 @@ export class MessageService{
     msgSubject = new Subject<Message>();
     
     constructor(){
-
     }
 
     success(message){

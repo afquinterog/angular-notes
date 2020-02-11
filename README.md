@@ -1,5 +1,7 @@
 # NotesApp
 
+Application to manage simple notes use the following tools: Tailwind, Rxjs subjects, dependency injection, Rxjs subscriptions, Angular forms and Angular router.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.5.3.
 
 ## Development server
